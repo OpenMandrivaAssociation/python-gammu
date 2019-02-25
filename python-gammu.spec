@@ -1,4 +1,4 @@
-%bcond_with python2
+%bcond_without python2
 
 Summary:	Python bindings for the Gammu library
 Name:		python-gammu
