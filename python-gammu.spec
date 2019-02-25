@@ -3,7 +3,7 @@
 Summary:	Python bindings for the Gammu library
 Name:		python-gammu
 Version:	2.12
-Release:	1
+Release:	2
 Group:		Communications
 License:	GPLv2+
 URL:		https://www.gammu.org/%{name}
