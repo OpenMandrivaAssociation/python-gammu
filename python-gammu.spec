@@ -44,7 +44,6 @@ Python2 bindings for the Gammu library.
 
 %prep
 %setup -q
-%autopatch -p1
 
 %build
 %py3_build
