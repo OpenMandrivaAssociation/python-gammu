@@ -46,15 +46,15 @@ Python2 bindings for the Gammu library.
 %setup -q
 
 %build
-%py3_build
+CFLAGS="$RPM_OPT_FLAGS" SKIPWXCHECK=yes %{__python3} setup.py build
 %if %with python2
-%py2_build
+CFLAGS="$RPM_OPT_FLAGS" SKIPWXCHECK=yes %{__python2} setup.py build
 %endif
 
 %install
-%py3_install
+SKIPWXCHECK=yes %{__python3} setup.py install --root=$RPM_BUILD_ROOT
 %if %with python2
-%py2_install
+SKIPWXCHECK=yes %{__python2} setup.py install --root=$RPM_BUILD_ROOT
 %endif
 
 %check
