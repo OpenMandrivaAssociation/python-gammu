@@ -15,7 +15,7 @@ Source0:	https://pypi.io/packages/source/%mod/%{name}/%{name}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(gammu)
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3egg(setuptools)
+BuildRequires:	python3dist(setuptools)
 %{?with_test:
 BuildRequires:	libdbi-drivers-dbd-sqlite3
 }
