@@ -6,7 +6,7 @@
 Summary:	Python bindings for the Gammu library
 Name:		python-%{module}
 Version:	3.2.4
-Release:	3
+Release:	4
 Group:		Communications
 License:	GPLv2+
 URL:		https://www.gammu.org/%{name}
